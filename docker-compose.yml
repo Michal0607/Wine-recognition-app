@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build: ./app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app
+      - ./model:/app/model
+      - ./data:/data
+  model:
+    build: ./model
+    volumes:
+      - ./model:/app/model
+      - ./data:/data
+  data:
+    build: ./data
+    volumes:
+      - ./data:/data
