@@ -1,6 +1,6 @@
 # Wine Recognition App
 
-Wine Recognition App is a simple web application built with Streamlit to demonstrate the process of loading data, training models, and visualizing predictions interactively for wine classification.
+Wine Recognition App is a simple web application built with Streamlit to demonstrate the process of loading data, training models, and visualizing distribution of variables and their relationship to each other interactively for wine classification.
 
 ## Features
 
@@ -21,7 +21,7 @@ To run this application locally, you'll need Python, Docker, and Docker Compose 
 
 1. Clone the repository:
 
-   git clone https://github.com/your_username/wine-recognition-app.git
+   git clone https://github.com/Michal0607/wine-recognition-app.git
 
 2. Navigate to the project directory:
 
@@ -39,6 +39,7 @@ Once the application is running, navigate to http://localhost:8501/ in your web 
 
  - **Show Data**: Interactively view data within the app.
  - **Train Model**: Choose a model to train from the dropdown menu and click the 'Train Model' button to train the model on the wine dataset and view metrics such as accuracy and confusion matrix.
- - **Visualize Data**: Use interactive controls to visualize different aspects of the data and the results of the model predictions.
+ - **Visualize Data**: Use interactive controls to visualize different aspects of the data.
+
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or encounter any issues, please feel free to submit a pull request or open an issue.
